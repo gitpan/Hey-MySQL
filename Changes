@@ -1,0 +1,4 @@
+Revision history for Perl extension Hey::MySQL.
+
+3.13  Thu Aug 18 05:50:03 UTC 2005
+	- Changed to Hey::MySQL (was hey::MySQL) and packaged for first appearance on CPAN.
