@@ -1,5 +1,5 @@
 #####
-#####  MySQL Library v3.13
+#####  MySQL Library v3.14
 #####
 #####  Created by Dusty D. Wilson on 03 April 2003
 #####  Modified by Kosta Jilkine on 13 January 2005
@@ -23,7 +23,7 @@
 
 package Hey::MySQL;
 
-our $VERSION = "3.13";
+our $VERSION = "3.14";
 
 use DBI;
 
@@ -346,33 +346,27 @@ sub describe {
 __END__
 =head1 NAME
 
-Hey::MySQL - Simple method for interacting with MySQL
+Hey::MySQL - Simple method for interacting with MySQL (don't use it, not maintained)
 
 =head1 DESCRIPTION
 
-Until I've added proper documentation, see the comments in the source for direction.  Sorry!
+This is a poorly written module to access MySQL.
+Unless you already have code tied to it, don't start using it.
+It's no longer maintained.
+If you are using it for some reason, let me know.
 
-=head2 EXPORT
-
-Nothing, Hey::MySQL is OO.
+Use L<DBI> instead.
+Or one of the neato abstracting modules.
 
 =head1 SEE ALSO
 
-The source code for this module.  There are comments that give documentation.
+The source code for this module.
+There are comments that give documentation.
+Obviously I wasn't any good at writing documentation when this was created.
 
-=head1 TODO
+=head1 LICENSE
 
-Make proper documentation for CPAN.  Coming very soon.
-
-=head1 AUTHOR
-
-Dusty Wilson, E<lt>cpan-Hey-MySQL@dusty.hey.nuE<gt>
-
-=head1 COPYRIGHT AND LICENSE
-
-Copyright 2003-2005 by Dusty Wilson, hey.nu Network Community Services
-
-This library is free software; you can redistribute it and/or modify
-it under the same terms as Perl itself.
+Use it any way you want, though using it at all is not recommended.
+We're not liable for whatever non-good stuff that results.
 
 =cut

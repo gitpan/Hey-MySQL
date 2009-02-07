@@ -8,6 +8,7 @@ WriteMakefile(
     'PREREQ_PM'		=> {
         'DBI'           => '1.43',
         'DBD::mysql'    => '2.9004',
+        'IO::All'       => '0.1',
     },
     ($] >= 5.005 ?    ## Add these new keywords supported since 5.005
       (AUTHOR     => 'Dusty Wilson <cpan-Hey-MySQL@dusty.hey.nu>') : ()),
